@@ -1,0 +1,88 @@
+{
+    "key": "group_608c89f27b462",
+    "title": "TEMPLATE: CALL TO ACTION",
+    "fields": [
+        {
+            "key": "field_608c8a0e389f7",
+            "label": "Call to action: Title",
+            "name": "call_to_action_title",
+            "type": "text",
+            "instructions": "Add a short question or statement to engage with the visitor (Max 64 characters).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 64
+        },
+        {
+            "key": "field_608c8b711befd",
+            "label": "Call to action: Background image",
+            "name": "call_to_action_background_image",
+            "type": "image",
+            "instructions": "Add a landscape-orientated image to serve as a background image for this <b>Call to action<\/b> section (Optional).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
+        },
+        {
+            "key": "field_608cd59a54e96",
+            "label": "Button",
+            "name": "button",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_608cd55d1d548"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1622525586
+}

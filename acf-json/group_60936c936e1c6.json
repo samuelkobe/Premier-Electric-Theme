@@ -1,0 +1,526 @@
+{
+    "key": "group_60936c936e1c6",
+    "title": "About Page Template",
+    "fields": [
+        {
+            "key": "field_60936c93718f5",
+            "label": "Half Banner Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60936cad548bd",
+            "label": "Half Banner Settings",
+            "name": "half_banner_settings",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_60936c3fd352c"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_6094599fe1f32",
+            "label": "History Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60946c674e91b",
+            "label": "History title",
+            "name": "history_title",
+            "type": "text",
+            "instructions": "Title for section (Max 32 characters).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 32
+        },
+        {
+            "key": "field_60945b85fabcc",
+            "label": "History snapshot",
+            "name": "history_snapshot",
+            "type": "textarea",
+            "instructions": "This is the first sentence about the company's history. It should be short and sweet (Max 256 characters).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 256,
+            "rows": 2,
+            "new_lines": ""
+        },
+        {
+            "key": "field_60945b89fabcd",
+            "label": "History content",
+            "name": "history_content",
+            "type": "textarea",
+            "instructions": "This should be between 2 and 5 sentences long. (Max 512 characters).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 512,
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_609466cd75e76",
+            "label": "Video Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_609466e675e77",
+            "label": "Full video",
+            "name": "full_video",
+            "type": "file",
+            "instructions": "Add a .mp4 video file here (Max 8mb in file size).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "url",
+            "library": "all",
+            "min_size": "",
+            "max_size": 8,
+            "mime_types": ""
+        },
+        {
+            "key": "field_60945a4fbe35b",
+            "label": "Approach Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60936c9371918",
+            "label": "Approach 5050",
+            "name": "content",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_60906d333a78f"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_60936c9371908",
+            "label": "People Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_60946c904e91c",
+            "label": "People title",
+            "name": "people_title",
+            "type": "text",
+            "instructions": "Title for section (Max 32 characters).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": 32
+        },
+        {
+            "key": "field_60945a61be35c",
+            "label": "People snapshot",
+            "name": "people_snapshot",
+            "type": "textarea",
+            "instructions": "This is the first sentence about the company's people\/team. It should be short and sweet (Max 256 characters).",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 256,
+            "rows": 2,
+            "new_lines": ""
+        },
+        {
+            "key": "field_60945a65be35d",
+            "label": "People content",
+            "name": "people_content",
+            "type": "textarea",
+            "instructions": "This should be between 2 and 5 sentences long. (Max 512 characters).",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": 512,
+            "rows": 4,
+            "new_lines": "wpautop"
+        },
+        {
+            "key": "field_6094705389b4b",
+            "label": "Team Toggle?",
+            "name": "team_toggle",
+            "type": "true_false",
+            "instructions": "Turn Team Members section on or off.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 1,
+            "ui_on_text": "On",
+            "ui_off_text": "Off"
+        },
+        {
+            "key": "field_60946ea28c54b",
+            "label": "Team members",
+            "name": "team_members",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_6094705389b4b",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 1,
+            "max": 12,
+            "layout": "table",
+            "button_label": "Add person",
+            "sub_fields": [
+                {
+                    "key": "field_60946eb78c54c",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "34",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "thumbnail",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_60946ece8c54d",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "Team Member's name (Max 32 chracters).",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 32
+                },
+                {
+                    "key": "field_60946ee78c54e",
+                    "label": "Position",
+                    "name": "position",
+                    "type": "text",
+                    "instructions": "Team Member's position with the company (Max 32 chracters).",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": 32
+                }
+            ]
+        },
+        {
+            "key": "field_60b17abfc7ecf",
+            "label": "Testimonials Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 0
+        },
+        {
+            "key": "field_5f6be195e4a8c",
+            "label": "Testimonials",
+            "name": "testimonials",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_60b17b27c7ed1",
+            "min": 1,
+            "max": 8,
+            "layout": "block",
+            "button_label": "Add Testimonial",
+            "sub_fields": [
+                {
+                    "key": "field_5f6be0fecc128",
+                    "label": "Testimonial Title",
+                    "name": "testimonial_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60b17b27c7ed1",
+                    "label": "Testimonial Author",
+                    "name": "testimonial_author",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_5f6be0fecc128",
+                                "operator": "!=empty"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_60b17b0fc7ed0",
+                    "label": "Testimonial Paragraph",
+                    "name": "testimonial_paragraph",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": 512,
+                    "rows": 4,
+                    "new_lines": ""
+                }
+            ]
+        },
+        {
+            "key": "field_60936c937191e",
+            "label": "Footer Section",
+            "name": "",
+            "type": "accordion",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "open": 0,
+            "multi_expand": 0,
+            "endpoint": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-about.php"
+            }
+        ]
+    ],
+    "menu_order": 10,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1622246422
+}

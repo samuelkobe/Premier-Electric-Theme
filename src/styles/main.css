@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html.wf-loading * {
+  opacity: 0;
+}
+
+body {
+  @apply bg-brand-bright font-sans;
+}
+
+/* grouped repeating styles */
+.contained {
+  @apply flex flex-col px-6 lg:px-12 2xl:container 2xl:mx-auto;
+}
+
+.md\:contained {
+  @apply flex flex-col md:px-6 lg:px-12 2xl:container 2xl:mx-auto;
+}
+
+.paragraphs p {
+  @apply mb-3;
+}
+
+/* auto adjusted custom height for screen sizes. In combination with js/h-vh.js */
+.custom-h-screen {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
+}
+.custom-h-screen.custom-h-screen-half {
+  height: 50vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 50);
+  @media (min-width: 1024px) {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}
+
+/* implementated to allow lg only usage. */
+.lg\:custom-h-screen {
+  @media (min-width: 1024px) {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}
+
+/* implementated to allow xl only usage. */
+.xl\:custom-h-screen {
+  @media (min-width: 1280px) {
+    height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+    height: calc(var(--vh, 1vh) * 100);
+  }
+}

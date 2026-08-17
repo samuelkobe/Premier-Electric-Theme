@@ -1,0 +1,197 @@
+{
+    "key": "group_60902cb0340ec",
+    "title": "TEMPLATE: SWIPER SLIDE",
+    "fields": [
+        {
+            "key": "field_60902cbc3e84e",
+            "label": "Slide Title",
+            "name": "slide_title",
+            "type": "text",
+            "instructions": "Short title for the slide.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60902cdd3e84f",
+            "label": "Slide Headline",
+            "name": "slide_content",
+            "type": "text",
+            "instructions": "Short one-liner.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60b3fd7a03736",
+            "label": "Slide Content",
+            "name": "slide_content_two",
+            "type": "text",
+            "instructions": "Short one-liner.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_60902cf33e850",
+            "label": "Slide CTA",
+            "name": "slide_cta",
+            "type": "clone",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "clone": [
+                "group_608cd55d1d548"
+            ],
+            "display": "seamless",
+            "layout": "block",
+            "prefix_label": 0,
+            "prefix_name": 0
+        },
+        {
+            "key": "field_609031d7e9d46",
+            "label": "Media Options",
+            "name": "media_options",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_609031ece9d47",
+                    "label": "Media Type?",
+                    "name": "media_type",
+                    "type": "true_false",
+                    "instructions": "Choose between an image or a muted video.",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "message": "",
+                    "default_value": 0,
+                    "ui": 1,
+                    "ui_on_text": "Video",
+                    "ui_off_text": "Image"
+                },
+                {
+                    "key": "field_60902d393e852",
+                    "label": "Slide Image",
+                    "name": "slide_image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_609031ece9d47",
+                                "operator": "!=",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "array",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_6090326f5a3f1",
+                    "label": "Slide Video",
+                    "name": "slide_video",
+                    "type": "file",
+                    "instructions": "Add a .mp4 video file here (Max 8mb in file size).",
+                    "required": 0,
+                    "conditional_logic": [
+                        [
+                            {
+                                "field": "field_609031ece9d47",
+                                "operator": "==",
+                                "value": "1"
+                            }
+                        ]
+                    ],
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "library": "all",
+                    "min_size": "",
+                    "max_size": 8,
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1622408591
+}

@@ -1,0 +1,64 @@
+{
+    "key": "group_608cd55d1d548",
+    "title": "TEMPLATE: BUTTON",
+    "fields": [
+        {
+            "key": "field_608c8a78389f8",
+            "label": "Call to action: Button Text",
+            "name": "call_to_action_button_text",
+            "type": "text",
+            "instructions": "Add content to the <b>Call to action<\/b> button (Max 24 characters). i.e \"Get in touch\".",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "Get in touch",
+            "prepend": "",
+            "append": "",
+            "maxlength": 24
+        },
+        {
+            "key": "field_608c8b3d1befc",
+            "label": "Call to action: Button Link",
+            "name": "call_to_action_button_link",
+            "type": "page_link",
+            "instructions": "Add a page link to the <b>Call to action<\/b> button.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "page"
+            ],
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 0,
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": ""
+            }
+        ]
+    ],
+    "menu_order": 99,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1620064816
+}

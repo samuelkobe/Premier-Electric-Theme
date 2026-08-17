@@ -1,0 +1,79 @@
+.button {
+  @apply font-semibold text-base lg:text-xl 2xl:text-3xl uppercase whitespace-nowrap leading-normal lg:leading-10 py-2 lg:py-3 2xl:py-5 px-4 lg:px-7 2xl:px-8 my-6 lg:my-12 relative flex flex-row items-center justify-items-center duration-400 transition-width border-transparent border-4;
+}
+.button::after {
+  content: "";
+  @apply duration-400 transition-all w-4 lg:w-5 2xl:w-7 h-4 lg:h-5 2xl:h-7 ml-4 lg:-ml-5 2xl:-ml-7 left-0 lg:-left-5 2xl:-left-7 lg:opacity-0 relative bg-contain bg-no-repeat bg-center;
+}
+.button:hover::after,
+.button:active::after {
+  @apply ml-4 left-0 opacity-100;
+}
+.button.small {
+  @apply text-base leading-normal py-2 px-4 my-2 md:my-4;
+}
+.button.small::after {
+  content: "";
+  @apply w-4 h-4 lg:-ml-4 lg:-left-4;
+}
+.button.small:hover::after,
+.button.small:active::after {
+  @apply lg:ml-4 lg:left-0 lg:opacity-100;
+}
+.button.dark {
+  @apply bg-brand-default text-brand-bright;
+}
+.button.dark.bordered {
+  @apply border-brand-bright border-4;
+}
+.button.dark.bordered.small {
+  @apply border-3;
+}
+.button.dark::after {
+  background-image: url("../../icons/arrow-bright.svg");
+}
+.button.bright {
+  @apply bg-brand-bright text-brand-dark;
+}
+.button.bright.bordered {
+  @apply border-brand-dark border-4;
+}
+.button.bright.bordered.small {
+  @apply border-3;
+}
+.button.bright::after {
+  content: "";
+  background-image: url("../../icons//arrow-dark.svg");
+}
+.button.transparent {
+  @apply bg-transparent text-brand-bright;
+}
+.button.transparent.bordered {
+  @apply border-brand-bright border-4;
+}
+.button.transparent.bordered.small {
+  @apply border-3;
+}
+.button.transparent::after {
+  content: "";
+  background-image: url("../../icons/arrow-bright.svg");
+}
+.button.transparent.alt {
+  @apply bg-transparent text-brand-dark;
+}
+.button.transparent.alt.bordered {
+  @apply border-brand-dark border-4;
+}
+.button.transparent.alt.bordered.small {
+  @apply border-3;
+}
+.button.transparent.alt::after {
+  content: "";
+  background-image: url("../../icons/arrow-dark.svg");
+}
+.button.no-margin {
+  @apply m-0;
+}
+.button.no-padding {
+  @apply p-0;
+}

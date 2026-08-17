@@ -1,0 +1,7 @@
+/* Project Achrive styles */
+/* // See scss/seach-and-filter.scss now */
+
+/* Single Project styles */
+.details div:first-child {
+  @apply border-b-0;
+}
